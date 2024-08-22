@@ -1,0 +1,97 @@
+{
+    "algorithm_type": "classifier",
+    "class_names": [
+        "12",
+        "34"
+    ],
+    "commit": "cbfa945e",
+    "compilation_date": "2024-08-09T08:42:22.083828",
+    "compilation_flags": {
+        "float_abi": "hard",
+        "fshort_enums": true,
+        "short_wchar": false
+    },
+    "compilation_str": "{'compilation_dict':{'request_type':'library','api':{'env':'PROD','version':'v3'},'version':{'web_api':{'env':'PROD','version':'v3'},'local_api':{'version':'2024.06.20.0','platform':'win64'},'studio':'4.5.0'},'compilation_flags':{'float_abi':'hard','short_wchar':false,'fshort_enums':true,'use_knowledge':false},'mcu':'cortex-m4_stmicroelectronics_stm32f4-series','sensor':'current','request_origin':'manual','algorithm_type':'classifier','lib_version':'v2_cbfa945','info':{'progression':{'evals_done':200000,'optimization_progress':1.0,'elapsed_time':3215,'cpu_info':{'cpu_nb_cores':4,'cpu_nb_cores_for_optimization':3},'state':'finished'},'max_ram':32000,'max_flash':512000,'optimization_global_id':'422c5b30fe975a6044c3a12f85d5e11d'},'class_names':'12,34','results':[{'result_id':50,'combination':[0,0,[19,2,6,0,10,7,20,3,1,16,13,12,5,8,26,14,9,4,15,21,25,18,11,17,24,22,23],27,0,25,512,3,6,1,5,0,70,2,1,2,0,5,0.0,0.0,1000000.0,0,0,1,0,2],'performance':{'performance':{'score':0.748,'precision':0.8125,'precision_confidence_interval':[0.2706,1.0]},'memory_usage':{'estimated_ram':5285,'estimated_flash':5584,'estimated_flash_knowledge':null}},'learning_min_lines':null}],'data':{'nb_cols':512,'nb_lines':[[{'file_type':'class','nb_lines':10},{'file_type':'class','nb_lines':10}]]},'only_emulators':false,'lock_type':100},'sign':46675,'license_key':'***'}",
+    "compile_emulators": true,
+    "compile_library": true,
+    "data": {
+        "nb_cols": 512,
+        "nb_lines": [
+            [
+                {
+                    "file_type": "class",
+                    "nb_lines": 10
+                },
+                {
+                    "file_type": "class",
+                    "nb_lines": 10
+                }
+            ]
+        ]
+    },
+    "gcc_version": "arm-none-eabi-gcc (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) 13.2.1 20231009",
+    "learning_min_lines": null,
+    "lib_limited": false,
+    "library_id": "66b5d66e2786386a153cc9de",
+    "library_md5sum": "64f8685175dff3229a9ef99b26bee3f6",
+    "mcu": "cortex-m4_stmicroelectronics_stm32f4-series",
+    "mcu_cpn": "",
+    "mcu_display_name": "STM32F4 Series - STMicroelectronics",
+    "mcu_family": "STM32F4 Series",
+    "mcu_group": "prod",
+    "mcu_type": "cortex-m4",
+    "mcu_vendor": "STMicroelectronics",
+    "memory_usage": {
+        "flash": 1901,
+        "ram": 5285
+    },
+    "optimization_info": {
+        "max_flash": 512000,
+        "max_ram": 32000,
+        "optimization_global_id": "422c5b30fe975a6044c3a12f85d5e11d",
+        "progression": {
+            "cpu_info": {
+                "cpu_nb_cores": 4,
+                "cpu_nb_cores_for_optimization": 3
+            },
+            "elapsed_time": 3215,
+            "evals_done": 200000,
+            "optimization_progress": 1.0,
+            "state": "finished"
+        }
+    },
+    "performance": {
+        "memory_usage": {
+            "estimated_flash": 5584,
+            "estimated_flash_knowledge": null,
+            "estimated_ram": 5285
+        },
+        "performance": {
+            "precision": 0.8125,
+            "precision_confidence_interval": [
+                0.2706,
+                1.0
+            ],
+            "score": 0.748
+        }
+    },
+    "request_type": "library",
+    "sensor": "current",
+    "studio_info": {
+        "local_api": {
+            "platform": "win64",
+            "version": "2024.06.20.0"
+        },
+        "studio": "4.5.0",
+        "web_api": {
+            "env": "PROD",
+            "version": "v3"
+        }
+    },
+    "user_info": {
+        "company": "Yijiang",
+        "email": "o2486689142@163.com",
+        "first_name": "Oy",
+        "last_name": "Sc"
+    }
+}
